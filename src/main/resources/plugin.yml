@@ -1,0 +1,6 @@
+name: MotdPlugin
+version: '${project.version}'
+main: noooooo.motdplugin.MotdPlugin
+api-version: 1.18
+authors: [ noooooo ]
+description: Changes MOTD in server list.
