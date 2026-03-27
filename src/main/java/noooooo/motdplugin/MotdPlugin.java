@@ -23,8 +23,8 @@ public final class MotdPlugin extends JavaPlugin implements Listener {
         manager.registerEvents(this, this);
         File configFile = new File(this.getDataFolder(), "config.yml");
         if(!configFile.exists()) {
-            log.info("[MotdPlugin] Couldn't find config, Creating default config now.");
-            List<String> configWrite = Arrays.asList("Put Your Motd(s) Here");
+            log.info("[MotdPlugin] Couldn't find config, creating default config now.");
+            List<String> configWrite = Arrays.asList("Put your MOTD(s) here");
             this.getConfig().set("motds",configWrite);
             this.saveConfig();
         }
@@ -35,7 +35,6 @@ public final class MotdPlugin extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-        //System.out.println("AAAAAA");
     }
     @EventHandler
     public void onServerListPingEvent(ServerListPingEvent event) {
