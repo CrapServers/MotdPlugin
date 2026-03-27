@@ -1,6 +1,10 @@
 > [!WARNING]
 > I made this plugin years ago for 1.18.1 for the Crapblocks SMP
+>
+> 
 > I haven't tested it for recent versions but it should compile and work fine
+>
+> 
 > This will also be my first and last Java plugin.
 
 # MotdPlugin
